@@ -1,0 +1,72 @@
+.container-projeto {
+    width: 101.5rem;
+    height: 50.0rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8.0rem;
+}
+
+.texto-gerir {
+    width: 35%;
+    padding: 10.3rem 0;
+}
+
+.texto-gerir h1 {
+    height: 4.2rem;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.0rem;
+    line-height: 4.2rem;
+    letter-spacing: -0.0357143rem;
+    color: var(--color-33323D);
+    text-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.texto-gerir p {
+    height: 12.0rem;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    color: var(--color-33323D);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    text-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    margin: 2.8rem 0 5.4rem 0;
+}
+
+.texto-gerir :nth-child(3) {
+    height: 1.4rem;
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: var(--color-33323D);
+    text-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.texto-gerir :nth-child(3) button {
+    height: 4.8rem;
+    width: 17.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid var(--color-33323D);
+    filter: drop-shadow(0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.borda-cima-baixo {
+    border-top: 0.1rem solid rgba(51, 50, 61, 0.15);
+    border-bottom: 0.1rem solid rgba(51, 50, 61, 0.15);
+}
+
+.mod-container-contato {
+    width: 101.5rem !important;
+}
