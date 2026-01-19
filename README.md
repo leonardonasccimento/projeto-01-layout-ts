@@ -1,2 +1,2 @@
-*URL da aplicação: https://layout-rwt.vercel.app/
+*URL da aplicação: https://projeto-01-layout-ts.vercel.app/
 
