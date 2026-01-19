@@ -22,13 +22,13 @@ function Footer() {
                     </div>
                 </div>
                 <div className="container-urls">
-                    <a href="https://github.com/">
+                    <a href="https://github.com/leonardonasccimento">
                         <img src={GithubLight} alt="Github" />
                     </a>
                     <a href="https://twitter.com/">
                         <img src={TwitterLight} alt="Twitter" />
                     </a>
-                    <a href="https://www.linkedin.com/">
+                    <a href="https://www.linkedin.com/in/leonardo-nascimento-06037b218">
                         <img src={LinkedinLight} alt="Linkedin" />
                     </a>
                 </div>

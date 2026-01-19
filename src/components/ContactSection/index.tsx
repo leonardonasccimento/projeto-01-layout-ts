@@ -21,13 +21,13 @@ function ContactSection() {
                         contato utilizando o formulário.
                     </p>
                     <div className="container-urls">
-                        <a href="https://github.com/">
+                        <a href="https://github.com/leonardonasccimento">
                             <img src={GithubDark} alt="Github" />
                         </a>
                         <a href="https://twitter.com/">
                             <img src={TwitterDark} alt="Twitter" />
                         </a>
-                        <a href="https://www.linkedin.com/">
+                        <a href="https://www.linkedin.com/in/leonardo-nascimento-06037b218">
                             <img src={LinkedinDark} alt="Linkedin" />
                         </a>
                     </div>
