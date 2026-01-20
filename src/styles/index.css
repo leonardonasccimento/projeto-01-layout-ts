@@ -19,6 +19,7 @@ input {
 html {
   overflow-x: auto;
   font-size: 62.5%;
+  overflow-x:hidden;
 }
 
 @import url("./global.css");
@@ -47,3 +48,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
