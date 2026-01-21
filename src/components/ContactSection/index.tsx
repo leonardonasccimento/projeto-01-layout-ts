@@ -1,10 +1,13 @@
+import { ToastContainer } from 'react-toastify';
 import GithubDark from '../../assets/icons/github-dark.svg';
 import LinkedinDark from '../../assets/icons/linkedin-dark.svg';
 import TwitterDark from '../../assets/icons/twitter-dark.svg';
+import { notify, notify2 } from '../../procedures/Notificatons';
 import './styles.css';
 
 function ContactSection() {
 
+    
     return (
         <section>
             <div className="entre-em-contato borda-cima-baixo" id="id-entre-em-contato">
@@ -51,9 +54,13 @@ function ContactSection() {
                             id="id-mensagem"
                         />
                     </label>
-                    <button type='button'>ENVIAR</button>
+                    <button 
+                       type='button'
+                       onClick={() =>{ notify(); notify2()}}
+                    >ENVIAR</button>
                 </div>
             </div>
+            <ToastContainer/>
         </section>
     );
 }
