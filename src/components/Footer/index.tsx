@@ -9,17 +9,18 @@ import './styles.css';
 function Footer() {
 
     return (
-        <footer>
+        <footer id='id-final'>
+            
             <div className="container-footer">
-                <div className="container-logo-links" id="id-final">
+                <div className="container-logo" >
                     <a href="#id-inicio">
-                        <img src={LogoLight} alt="Logo" />
+                        <img className='img-logo-light' src={LogoLight} alt="Logo" />
                     </a>
-                    <div className="container-links link-color">
+                    {/* <div className="container-links-footer link-color">
                         <Link to="/">HOME</Link>
                         <Link to="/portfolio">PORTIFÓLIO</Link>
                         <Link to="/contact">CONTATO</Link>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="container-urls">
                     <a href="https://github.com/leonardonasccimento">

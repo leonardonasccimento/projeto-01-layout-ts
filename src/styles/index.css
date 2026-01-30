@@ -17,8 +17,9 @@ input {
 }
 
 html {
+  /* overflow-x: hidden; */
   font-size: 62.5%;
-  overflow-x:hidden;
+  
 }
 
 @import url("./global.css");
@@ -40,7 +41,12 @@ body {
   --color-203A4C: #203A4C;
   --color-FFFFFF: #FFFFFF;
 
-  font-size: 1.6rem;
+  overflow-x: hidden;
+
+  /* font-size: 1.6rem; */
+  font-size: 1.2vw ;
+
+  background-color: aliceblue;
 }
 
 code {

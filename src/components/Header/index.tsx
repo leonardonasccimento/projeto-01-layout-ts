@@ -8,7 +8,7 @@ function Header() {
         <header id="id-inicio">
             <div className='container-header' >
                 <a href="#id-final">
-                    <img src={LogoDark} alt="Logo" />
+                    <img className='img-logo-light' src={LogoDark} alt="Logo" />
                 </a>
                 <div className='container-links'>
                     <Link to="/">HOME</Link>

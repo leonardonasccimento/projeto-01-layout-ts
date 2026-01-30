@@ -9,33 +9,37 @@ function HomeSection() {
 
     return (
         <section>
+            
             <div
                 className="apresentacao-imagem imagem"
                 style={{
-                    backgroundImage: `url(${ImageHomepageHero})`
+                    // backgroundImage: `url(${ImageHomepageHero})`,
                 }}
                 id="id-apresentacao"
             >
-                <div className="apresentacao-texto">
-                    <h1>Olá, me chamo Alex Spencer e eu amo construir websites lindos</h1>
-                </div>
-                <a href="#id-sobre">
+                <img className='imagem-principal' src={ImageHomepageHero} alt="" />
+                <div className="apresentacao-texto ">
+                    <h1 className='font-apresentacao-texto'>Olá, me chamo Alex Spencer e eu amo construir websites lindos</h1>
+                    <a href="#id-sobre">
                     <button type='button'>
                         <img src={DownArrows} alt="Para baixo" />
                         <span>SOBRE MIM</span>
                     </button>
-                </a>
+                    </a>
+                </div>
             </div>
-            <div className="perfil-imagem imagem">
-                <div
+
+            <div className="perfil-imagem ">
+                {/* <div
                     className="imagem"
                     style={{
-                        backgroundImage: `url(${ImageHomepageProfile})`,
-                        width: '45%'
+                        backgroundImage: `url(${ImageHomepageProfile}) no-repeat center center fixed !important`,
+                        
                     }}
-                ></div>
+                >kdfdkjf</div> */}
+                <img  src={ImageHomepageProfile} alt="" />
                 <div className="perfil-descricao">
-                    <h1 id="id-sobre">Sobre mim</h1>
+                    <h1  id="id-sobre" >Sobre mim</h1>
                     <p>
                         Sou um desenvolvedor front-end júnior procurando por uma
                         oportunidade. Eu foco em escrever HTML acessível, usando práticas
@@ -48,9 +52,10 @@ function HomeSection() {
                         para uma caminhada, corrida ou ciclismo. Eu amaria se você desse uma
                         olhada no meu trabalho.
                     </p>
-                    <Link to="/portfolio"><button>IR PARA PORTFOLIO</button></Link>
+                    <Link to="/portfolio"><button className='texto-linha-unica'>IR PARA PORTFOLIO</button></Link>
                 </div>
             </div>
+
             <ContainerContact />
         </section>
     );
